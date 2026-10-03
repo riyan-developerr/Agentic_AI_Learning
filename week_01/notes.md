@@ -21,7 +21,7 @@ what is a token?\
 A token is a small collection of letters,it is the basis of llms input, output and cost calculations.
 
 what is context window?\
-Context window is the max text(input output combined) an llm can understand at once without forgetting.If it exceeds the llms limit then either llm gives error,remember llm does shrink to size of our message to accomodate
+Context window is the max text(input output combined) an llm can understand at once without forgetting.If it exceeds the llms limit then either llm gives error,remember llm does not shrink the size of our message to accomodate
 it is our logic and code that will smartly calculate if the message exceed the context window then it will adjust it,summarize or truncate 
 
 why is .env in .gitignore?\

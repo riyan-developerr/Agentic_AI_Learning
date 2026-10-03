@@ -41,8 +41,8 @@ asking again and again gives different responses
 
 """ 
 Experiment: 04
-No history the model only remembers you give it , so in order to retain memory you have to store and send it with
-every api call
+No history, the model only remembers what you give it , so in order to retain memory you have to store and send it with
+every call
 """
 
 # r1 = ask([{"role": "user", "content": "My name is Riyan."}])
@@ -56,11 +56,6 @@ every api call
 #     {"role": "user", "content": "What is my name?"},
 # ]
 
-# history = [
-#     {"role": "user", "content": "My name is Riyan."},
-#     {"role": "assistant", "content": "Nice to meet you, Riyan!"},
-#     {"role": "user", "content": "What is my name?"},
-# ]
 
 # r1 = ask(history)
 # print(r1)
